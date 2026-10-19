@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap / User Story Mapping - Tiendas Urbano</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Roadmap de Tiendas urbano</h1>
+        <p>Proyecto de Transformación Digital &mdash; Tiendas Urbano (50 Historias / 25 Épicas)</p>
+    </header>
+
+    <main class="roadmap-wrapper">
+        <div class="roadmap-scroll-container">
+            <table class="roadmap-table">
+                <thead>
+                    <tr>
+                        <th class="th-version">Versión</th>
+                        <th>1. Configuración &amp; Admin Base</th>
+                        <th>2. Gestión Cuenta &amp; Autenticación</th>
+                        <th>3. Exploración &amp; Compra</th>
+                        <th>4. Pago &amp; Confirmación</th>
+                        <th>5. Preparación en Bodega</th>
+                        <th>6. Despacho &amp; Logística Digital</th>
+                        <th>7. Recepción &amp; Seguimiento</th>
+                        <th>8. Post Venta &amp; Reportes</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <!-- FILA MVP (ESENCIAL / 13 HU CRÍTICAS) -->
+                    <tr class="row-mvp">
+                        <td class="version-cell badge-mvp">
+                            <strong>MVP</strong>
+                            <span>(Esencial)</span>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-11.2:</strong> Actualización controlada de precios
+                                de prendas</p>
+                            <p class="story-item">&bull; <strong>HU-19.2:</strong> Gestión y programación de turnos del
+                                personal</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-01.1:</strong> Registro de cuenta de cliente
+                                particular o empresa</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-07.1:</strong> Visualización del catálogo de ropa
+                                importada</p>
+                            <p class="story-item">&bull; <strong>HU-09.1:</strong> Añadir producto al carrito desde la
+                                ficha</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-12.1:</strong> Base de datos oficial de
+                                transacciones de venta</p>
+                            <p class="story-item">&bull; <strong>HU-14.2:</strong> Validación y confirmación de pagos en
+                                línea</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-18.1:</strong> Generación de ID único de pedido para
+                                bodega</p>
+                            <p class="story-item">&bull; <strong>HU-18.2:</strong> Checklist de verificación de empaque
+                                en bodega</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-20.1:</strong> Asignación de despachos a empresas de
+                                reparto</p>
+                            <p class="story-item">&bull; <strong>HU-20.2:</strong> Registro digital de rutas (reemplazo
+                                de cuaderno)</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-14.1 (Segunda parte):</strong> Actualización de
+                                estatus logístico por operador</p>
+                            <p class="story-item">&bull; <strong>HU-15.1:</strong> Registro de fecha y hora real de
+                                entrega</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-12.2:</strong> Emisión automática de comprobantes
+                                digitales</p>
+                        </td>
+                    </tr>
+
+                    <!-- FILA V1 (EVOLUCIÓN OPERATIVA / 17 HU) -->
+                    <tr class="row-v1">
+                        <td class="version-cell badge-v1">
+                            <strong>V1</strong>
+                            <span>(Evolución)</span>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-11.1:</strong> Registro e ingreso de nuevos
+                                productos con foto</p>
+                            <p class="story-item">&bull; <strong>HU-19.1:</strong> Administración de cuentas de
+                                trabajadores</p>
+                            <p class="story-item">&bull; <strong>HU-23.2:</strong> Control estricto de permisos por rol
+                                de usuario</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-01.2:</strong> Validación de unicidad de correo en
+                                el registro</p>
+                            <p class="story-item">&bull; <strong>HU-02.1:</strong> Registro diferenciado de particulares
+                                y empresas</p>
+                            <p class="story-item">&bull; <strong>HU-02.2:</strong> Panel de control de perfiles
+                                comerciales (B2B)</p>
+                            <p class="story-item">&bull; <strong>HU-04.1:</strong> Modificación de datos personales en
+                                el perfil</p>
+                            <p class="story-item">&bull; <strong>HU-04.2:</strong> Administración de múltiples
+                                direcciones de despacho</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-07.2:</strong> Búsqueda y filtrado de prendas por
+                                atributos</p>
+                            <p class="story-item">&bull; <strong>HU-09.2:</strong> Modificar o eliminar ítems del
+                                carrito</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-14.1:</strong> Cálculo automático de compras y costo
+                                de despacho</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-13.1:</strong> Creación de orden interna de pedido
+                                para bodega</p>
+                            <p class="story-item">&bull; <strong>HU-13.2:</strong> Panel de consulta de pedidos para el
+                                bodeguero</p>
+                            <p class="story-item">&bull; <strong>HU-16.1:</strong> Actualización automática de stock en
+                                bodega central</p>
+                            <p class="story-item">&bull; <strong>HU-16.2:</strong> Alertas de stock mínimo en la bodega
+                                central</p>
+                        </td>
+                        <td>
+                            <!-- Espacio libre para balance de flujo -->
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-06.1:</strong> Consulta del estado del pedido en
+                                tiempo real</p>
+                            <p class="story-item">&bull; <strong>HU-06.2:</strong> Notificaciones de cambios logísticos
+                                al cliente</p>
+                            <p class="story-item">&bull; <strong>HU-15.2:</strong> Aviso automático de despacho vía
+                                correo</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-03.1:</strong> Recuperación de contraseña vía correo
+                            </p>
+                            <p class="story-item">&bull; <strong>HU-05.1:</strong> Consulta de historial de compras
+                                pasadas</p>
+                            <p class="story-item">&bull; <strong>HU-05.2:</strong> Detalle de transacción histórica</p>
+                        </td>
+                    </tr>
+
+                    <!-- FILA V2 (MARKETING & INTELIGENCIA DE NEGOCIO / 10 HU) -->
+                    <tr class="row-v2">
+                        <td class="version-cell badge-v2">
+                            <strong>V2</strong>
+                            <span>(Marketing)</span>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-21.1:</strong> Generación de reportes de ventas
+                                periódicas</p>
+                            <p class="story-item">&bull; <strong>HU-22.1:</strong> Registro de logs de actividades
+                                administrativas</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-17.1:</strong> Clasificación de clientes (Bronce,
+                                Plata, Diamante, Premium)</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-08.1:</strong> Sugerencias según comportamiento de
+                                compra</p>
+                            <p class="story-item">&bull; <strong>HU-08.2:</strong> Visualización de sugerencias en la
+                                tienda</p>
+                            <p class="story-item">&bull; <strong>HU-10.1:</strong> Adaptabilidad multidispositivo (Web y
+                                App)</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-17.2:</strong> Aplicación automática de descuentos
+                                promocionales</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-25.2:</strong> Garantía de integridad transaccional
+                                venta-stock</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-21.2:</strong> Reportes de efectividad en despachos
+                                de repartidores</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-10.2:</strong> Validación de facilidad de uso del
+                                proceso de compra</p>
+                        </td>
+                        <td>
+                            <!-- Integrado en reportes de ventas -->
+                        </td>
+                    </tr>
+
+                    <!-- FILA VN (ESCALABILIDAD & SEGURIDAD AVANZADA / 10 HU) -->
+                    <tr class="row-vn">
+                        <td class="version-cell badge-vn">
+                            <strong>VN</strong>
+                            <span>(Escalabilidad)</span>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-24.2:</strong> Escalabilidad arquitectónica para
+                                expansión regional</p>
+                            <p class="story-item">&bull; <strong>HU-25.1:</strong> Copias de seguridad automáticas
+                                diarias</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-03.2:</strong> Encriptación segura de contraseñas
+                                con algoritmos hash</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-24.1:</strong> Soporte de concurrencia para 500
+                                usuarios simultáneos</p>
+                        </td>
+                        <td>
+                            <p class="story-item">&bull; <strong>HU-23.1:</strong> Cifrado de comunicaciones mediante
+                                protocolo HTTPS</p>
+                        </td>
+                        <td>
+                            <!-- Mantenimiento de infraestructura -->
+                        </td>
+                        <td>
+                            <!-- Integración GPS en rutas -->
+                        </td>
+                        <td>
+                            <!-- Canales alternativos de notificación -->
+                        </td>
+                        <td>
+                            <!-- Módulos avanzados de analítica gerencial -->
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    padding: 10px;
+    line-height: 1.35;
+}
+
+/* Encabezado */
+.header {
+    margin-bottom: 12px;
+    border-bottom: 2px solid #0f172a;
+    padding-bottom: 6px;
+}
+
+.header h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.header p {
+    font-size: 11px;
+    color: #475569;
+    margin-top: 2px;
+}
+
+/* Contenedor Adaptativo */
+.roadmap-wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.roadmap-scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Personalización de la barra de desplazamiento */
+.roadmap-scroll-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.roadmap-scroll-container::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+.roadmap-scroll-container::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 3px;
+}
+
+/* Tabla de Ancho Reducido */
+.roadmap-table {
+    width: 100%;
+    min-width: 1050px;
+    /* Reducido para encajar mejor en pantallas medianas */
+    border-collapse: collapse;
+    font-size: 10.5px;
+    /* Tamaño de texto ligeramente más compacto */
+    text-align: left;
+    table-layout: fixed;
+}
+
+/* Encabezados de Columnas */
+.roadmap-table thead tr {
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.roadmap-table th {
+    padding: 9px 7px;
+    font-weight: 600;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    border-right: 1px solid #334155;
+    border-bottom: 2px solid #020617;
+    width: 145px;
+    /* Ancho de columna más estrecho y eficiente */
+    word-wrap: break-word;
+}
+
+.roadmap-table th.th-version {
+    width: 75px;
+    /* Versión más delgada */
+    text-align: center;
+}
+
+.roadmap-table th:last-child {
+    border-right: none;
+}
+
+/* Celdas */
+.roadmap-table td {
+    padding: 9px 7px;
+    vertical-align: top;
+    border-right: 1px solid #e2e8f0;
+    border-bottom: 1px solid #cbd5e1;
+    word-wrap: break-word;
+}
+
+.roadmap-table td:last-child {
+    border-right: none;
+}
+
+/* HISTORIAS INDIVIDUALES CON ESPACIO MODERADO */
+.story-item {
+    margin-bottom: 10px;
+    /* Espaciado compacto y limpio */
+    line-height: 1.38;
+    color: #1e293b;
+}
+
+.story-item:last-child {
+    margin-bottom: 0;
+}
+
+.story-item strong {
+    color: #000000;
+    font-weight: 700;
+}
+
+/* Insignia Lateral de Versión */
+.version-cell {
+    text-align: center;
+    vertical-align: middle !important;
+    color: #ffffff;
+}
+
+.version-cell strong {
+    font-size: 13px;
+    display: block;
+    letter-spacing: 0.5px;
+}
+
+.version-cell span {
+    font-size: 8.5px;
+    font-weight: 400;
+    display: block;
+    text-transform: uppercase;
+    opacity: 0.85;
+    margin-top: 1px;
+}
+
+/* Colores de Filas */
+.row-mvp {
+    background-color: #ffffff;
+}
+
+.badge-mvp {
+    background-color: #0f172a;
+}
+
+.row-v1 {
+    background-color: #f8fafc;
+}
+
+.badge-v1 {
+    background-color: #334155;
+}
+
+.row-v2 {
+    background-color: #ffffff;
+}
+
+.badge-v2 {
+    background-color: #475569;
+}
+
+.row-vn {
+    background-color: #f1f5f9;
+}
+
+.badge-vn {
+    background-color: #64748b;
+}
+
+.roadmap-table tbody tr:hover {
+    background-color: #f1f5f9;
+}
